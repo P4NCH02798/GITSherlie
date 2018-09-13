@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .mySlides {display:none;}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>24</title>
+    <link rel="stylesheet" href="CSSOficial.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="shortcut icon" href="https://previews.123rf.com/images/miceking/miceking1605/miceking160500543/56614992-coraz%C3%B3n-icono-retro-c%C3%ADrculo-con-recorte-de-coraz%C3%B3n.jpg">
+</head>
+<body>
+
+<div class="w3-content w3-display-container" style="height: 100vh; width: 100vw; border: 6px solid hotpink">
+
+<div class="w3-display-container mySlides">
+    <pre class="tareita">
+        <b>
+            Un dia cualquiera
+            Deseando que acabara
+            Paso algo singular
+            Ocurrio algo que nunca me hubiera podido imaginar
+
+            Paso un tiempo, poco sabia de ella
+            Una noche sin más dilación
+            Se ilumino una gran estrella
+            Habrá sido talvez una bendición?
+        </b>
+    </pre>
+</div>
+<div class="w3-display-container mySlides">
+        <pre class="tareita">
+            <b>
+                Ahora son amigos, una amistad saludable
+                Más el sabe bien que lo que siente es inevitable
+                Ese tierno amor hace que cuando la mire
+                Suspire y sus emociones lo hacen algo divertido
+
+                Todos los días voy a verte solo para conocerte
+                Para ti soy alguien 
+                Déjame contarte
+                Espero el dia pase rapido para ir a visitarte
+                Buscando conversación aunque estas sean torpes
+            </b>
+        </pre>
+</div>
+
+<div class="w3-display-container mySlides">
+        <pre class="tareita">
+            <b>
+                Contigo mis latidos cambiaban al acercarme
+                Solo era un cobarde ya que no podía mirarte
+                Y expresarte lo que siento de verdad quiero sacarlo
+                Me lastima el sufrimiento 
+                De no poder decirlo
+                    
+                Mi amigo me motiva, dice que aun estoy a tiempo
+                Sacar lo que llevas dentro quitara un enorme peso
+                Tal vez tenga razón 
+                Es hora de reaccionar
+                No dejar que el tiempo pase y en verdad no haga nada
+            </b>
+        </pre>
+</div> 
+
+<div class="w3-display-container mySlides">
+        <pre class="tareita">
+            <b>
+                El conocerte a ti para mí fue algo inesperado
+                Sin saberlo viviríamos algo al habernos juntado
+                Al principio fue difícil no te lo voy a negar
+                Créeme te seré sincero desde hoy hasta el final
+
+                No tengo explicación a esto simplemente pasa
+                Hasta siento que a tu lado ninguna meta fracasa
+                Cuando hablamos por momentos siento que te conocía
+                Veía que mi vacío se llenaba día a día
+            </b>
+        </pre>
+    </div>
+
+<button class="w3-button w3-display-left w3-pink" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-pink" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3 col-sm-3">
+                    <a target="" class="button-link" href="OficialPagina2.html" style="color: #73e600;">                            
+                        <div class="" type="button" id="btn" style="font-size:150%;padding-bottom: 3px"> 
+                            Anterior
+                        </div>
+                    </a>
+            </div>
+            <div class="col-md-6 col-sm-6"></div>
+                <div class="col-md-3 col-sm-3">
+                        <a target="" class="button-link" href="OficialPaginaVideo.html" style="color: #73e600;">                            
+                            <div class="" type="button" id="btn" style="font-size:150%;padding-bottom: 3px"> 
+                                Siguiente
+                            </div>
+                        </a>
+                </div>  
+    </div>      
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

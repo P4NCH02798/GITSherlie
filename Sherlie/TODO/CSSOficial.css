@@ -1,0 +1,277 @@
+p{
+    font-family: 'Pacifico', cursive;
+    text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+}
+.tareita{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  color:#e6ffcc;
+  font-size: 35px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#btn {
+    position: relative;
+  
+    display: block;
+    margin: 30px auto;
+    padding-top: 2px;
+    width: 15vw;
+    height: 7vh;
+    overflow: hidden;
+    font-size: 170%;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #000066;    
+    transition: background-color .3s;
+    color: #73e600;
+  
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+  }
+  
+  .btn:hover, .btn:focus {
+    background-color: #27ae60;
+  }
+  
+  .btn > * {
+    position: relative;
+  }
+  
+  .btn span {
+    display: block;
+    padding: 12px 24px;
+  }
+  
+  .btn:before {
+    content: "";
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: block;
+    width: 0;
+    padding-top: 0;
+      
+    border-radius: 100%;
+    
+    background-color: rgba(236, 240, 241, .3);
+    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+    
+    transition: width .2s ease-out, padding-top .2s ease-out;
+  }
+  
+  /* Styles, not important */
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+#nombreSher{
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+    color: #73e600;
+    text-shadow: -1px 0 #000066, 0 1px #000066, 1px 0 #000066, 0 -1px #000066;
+}
+#nombreFran
+{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 60px;
+    color: #73e600;
+    text-shadow: -1px 0 #000066, 0 1px #000066, 1px 0 #000066, 0 -1px #000066;
+}
+.avatar{
+    width:200px;
+    height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+body{
+    background: #152d46;
+    background: -webkit-linear-gradient(to right, #042b53, #0f7cc5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000a14, #0099ff);
+    background-size: 300% 300%;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;    
+  }
+  @-webkit-keyframes AnimationName {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:47% 0%}
+    50%{background-position:54% 100%}
+    100%{background-position:47% 0%}
+}
+/*
+inicio fh5co
+*/
+
+.fh5co-video {
+    height: 450px;
+    overflow: hidden;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+  }
+  .fh5co-video a {
+    z-index: 1001;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -45px;
+    margin-left: -45px;
+    width: 90px;
+    height: 90px;
+    display: table;
+    text-align: center;
+    background: #0f7cc5;
+    -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .fh5co-video a i {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+  }
+  .fh5co-video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .fh5co-video:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .fh5co-video:hover a {
+    position: relative;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .fh5co-bg {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .fh5co-bg {
+    background-position: center center;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+
+/*
+fin fh5co
+*/
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #73e600; 
+  color: black;
+  margin-bottom: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#boton{
+  animation-name: Opaqueo;
+  animation-delay: 5s;
+  animation-duration: 3s; 
+}
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+.transp{
+
+  animation-name: Opaqueo;
+  
+  animation-duration: 5s;
+  
+  animation-fill-mode: backwards;
+  
+  }
+  .transpBoton{
+
+    animation-name: OpaqueoBoton;
+    
+    animation-duration: 5s;
+    
+    animation-fill-mode: backwards;
+    
+    }
+  @keyframes OpaqueoBoton{
+  
+    0%{opacity: 0;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+    
+    }
+
+  @keyframes movimiento{
+  
+    0%{top:-150px;}
+    
+    100%{top:0px;}
+    
+    }  
+  @keyframes Opaqueo{
+  
+  0%{opacity: 0.05;}
+  
+  100%{opacity: 1;}
+  
+  }
+  
